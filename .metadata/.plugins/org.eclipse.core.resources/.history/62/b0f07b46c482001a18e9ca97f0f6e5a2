@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>문제 2</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			text-decoration: none;
+			list-style: none;
+			text-align: center;
+			color: red;
+		}
+		
+		#logo{
+			width: 550px;
+			height: 300px;
+			margin: 0 auto;
+			background: orange;
+			line-height: 300px;
+			
+		}
+		
+		#menubar{
+			width: 1390px;
+			height: 50px;
+			border: 3px solid blue;
+			margin: 0 auto;
+			line-height: 50px;
+		}
+		
+		.box{
+			width: 300px;
+			height: 200px;
+			border: 2px solid red;
+			margin: 20px 10px;
+			padding: 10px 15px;
+			float: left;
+			line-height: 200px;
+		}
+		
+		.container{
+			width: calc(354px * 4);
+			height: 244px;
+		}
+	</style>
+</head>
+<body>
+	<div id = "logo">아이디:로고</div>
+	<div id = "menubar">아이디 메뉴바</div>
+	<div class = "container">
+		<div class = "box">클래스박스</div>
+		<div class = "box">클래스박스</div>
+		<div class = "box">클래스박스</div>
+		<div class = "box">클래스박스</div>
+	</div>
+	<div class = "container">
+		<div class = "box">클래스박스</div>
+		<div class = "box">클래스박스</div>
+		<div class = "box">클래스박스</div>
+		<div class = "box">클래스박스</div>
+	</div>
+</body>
+</html>

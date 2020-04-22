@@ -1,0 +1,4 @@
+let num;
+num = 10;
+alert(num);
+consol.log(num+10);

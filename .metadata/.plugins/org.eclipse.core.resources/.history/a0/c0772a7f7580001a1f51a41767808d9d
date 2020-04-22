@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+	<style>
+		*{
+			margin: 0;
+			padding : 0;
+			text-decoration: none;
+			list-style: none;
+			
+		}
+		
+		.menu > h3{
+			color: blue;
+		}
+		
+		.menu .like{
+			color: red;
+		}
+		
+		.like ~ li {
+			background: yellow;
+		}
+		
+		#korea > li{
+			font-size: 20px;
+		}
+		
+		#korea > li:first-child {
+			color: pink;
+		}
+		
+		#korea > li:last-child {
+			background: orange;
+		}
+	</style>
+	
+</head>
+<body>
+	<div>
+		<ul>
+			<li class = "menu">
+				<h3>한식</h3>
+				<ul id = "korea">
+					<li>김치찌개</li>
+					<li>된장찌개</li>
+					<li class = "like">비빔밥</li>
+				</ul>
+			</li>
+			<li class = "menu">
+				<h3>양식</h3>
+				<ul id = "usa">
+					<li class = "like">파스타</li>
+					<li>피자</li>
+					<li>스테이크</li>
+				</ul>
+			</li>
+			<li class = "menu">
+				<h3>중식</h3>
+				<ul id = "china">
+					<li>짜장면</li>
+					<li class = "like">짬뽕</li>
+					<li>볶음밥</li>
+				</ul>
+			</li>
+			<li class = "menu">
+				<h3>일식</h3>
+				<ul id = "japan">
+					<li class = "like">초밥</li>
+					<li>라멘</li>
+					<li>돈까스</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>

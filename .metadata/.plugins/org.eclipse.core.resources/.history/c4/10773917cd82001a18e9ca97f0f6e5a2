@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			text-decoration: none;
+			list-style: none;
+		}
+	
+	</style>
+</head>
+<body>
+	<div>
+	<h2>글자 그림자 예제 입니다.</h2>
+	</div>
+</body>
+</html>

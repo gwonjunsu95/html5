@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<script>
+		function car() {	//메소드
+			
+		}
+		
+		function Car(company, color, model) {	//클래스
+			this.company = company,	
+			this.color = color,	
+			this.model = model,
+			this.maxSpeed = 350,
+			this.speed = 0,
+			this.addSpeed = function() {
+				this.speed += 10;
+				console.log(speed);
+			},
+			this.subSpeed = function() {
+				this.speed -= 10;
+				console.log(speed);
+			},
+			this.moveSpeed = function(x) {
+				this.speed += x;
+				console.log(this.speed);
+			}
+		}
+		
+		let myCar = new Car("기아자동차", "black", "K5");
+		console.log(myCar.company);
+	</script>
+
+</body>
+</html>

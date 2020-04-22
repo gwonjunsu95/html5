@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>문제1</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			text-decoration: none;
+			font-style: none;
+		}
+		
+		.container{
+			background: pink;
+			width: calc(277px * 3);
+			height: 242;
+			overflow: hidden;
+		}
+		
+		.boxes{
+			width:235px;
+			height:200px;
+			border: 3px solid red;
+			padding: 6px;
+			margin: 12px;
+			float: left;
+		}
+		
+
+		
+	</style>
+</head>
+<body>
+	<div class = "container">
+		<div class = "boxes">box1</div>
+		<div class = "boxes">box2</div>
+		<div class = "boxes">box3</div>
+	</div>
+</body>
+</html>

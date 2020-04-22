@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>position 속성</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			text-decoration: none;
+			list-style: none;
+		}
+		
+		.container {
+			background: yellow;
+			width: 1000px;
+			height: 800px;
+			position: relative;
+			left: 50px;
+			top: 50px;
+		}
+		
+		.container > .boxes {
+			width: 200px;
+			height: 200px;
+			line-height: 200px;
+			text-align: center;
+			display: block;
+			position: static;	/*기본값은 고정(static), float속성은 static만 사용가능하다*/
+		}
+			/*position 속성 : static(default), relative, absolute, fixed*/
+		#box1 {
+			background: red;
+		}
+		#box2 {
+			background: lightgreen;
+			left: 50px;
+		}
+		#box3 {
+			position: absolute;	/*절대 위지를 사용 , 부모의 좌상단이 0,0입니다.*/
+			background: blue;
+			top: 300px;
+			left: 400px;
+		}
+		
+		.container > .boxes {
+			position: relative;	/*상대 위치를 사용*/
+			
+		}
+		
+		.menu {
+			position: fixed;
+			width: 200px;
+			height: 100%;
+			background: orange;
+			left: 0;
+			top: 0;
+		}
+		
+		body {
+			height: 3000px;
+			width: 3000px;
+		}
+	</style>
+</head>
+<body>
+	<div class = "container">
+		<div id = "box1" class = "boxes">box1</div>
+		<div id = "box2" class = "boxes">box2</div>
+		<div id = "box3" class = "boxes">box3</div>
+	</div>
+	<div class = "menu"></div>
+</body>
+</html>

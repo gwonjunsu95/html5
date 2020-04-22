@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+	<script>
+		document.write("<p>hello, world!!<p>");
+		document.write("<p>hello, world!!<p>");
+		console.log("콘솔 사용");
+	
+	
+	
+	
+	
+	
+	
+	</script>
+</head>
+<body>
+
+</body>
+</html>

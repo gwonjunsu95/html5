@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<script>
+		function car() {	//메소드
+			
+		}
+		
+		function Car() {	//클래스
+			
+		}
+	</script>
+
+</body>
+</html>

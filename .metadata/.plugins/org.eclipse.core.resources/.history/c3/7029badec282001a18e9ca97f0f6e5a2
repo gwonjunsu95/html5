@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>문제 2</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			text-decoration: none;
+			font-style: none;
+		}
+		
+		#logo{
+			width: 550px;
+			height: 300px;
+			margin: 30px;
+			background: orange;
+			
+		}
+		
+		#menubar{
+		
+		}
+		
+		.box{
+		
+		}
+	</style>
+</head>
+<body>
+	<div id = "logo">아이디:로고</div>
+	<div id = "menubar">아이디 메뉴바</div>
+	<div class = "box">클래스박스</div>
+	<div class = "box">클래스박스</div>
+	<div class = "box">클래스박스</div>
+	<div class = "box">클래스박스</div>
+	<div class = "box">클래스박스</div>
+	<div class = "box">클래스박스</div>
+	<div class = "box">클래스박스</div>
+	<div class = "box">클래스박스</div>
+
+</body>
+</html>

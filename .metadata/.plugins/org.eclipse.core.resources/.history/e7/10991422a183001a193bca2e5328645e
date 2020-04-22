@@ -1,0 +1,38 @@
+let num;
+num = 10;
+alert(num);
+console.log(num+10);
+
+for(let i = 0; i < 5; i++){
+	console.log(i);
+}
+
+//console.log("현재 i의 값: " + i );
+
+num = 50;
+console.log(num);
+
+const num2 = 100;
+//num2 = 1000;
+console.log(num2);
+
+//String[] fruits = {"사과", "바나나"};
+//String[] fruits = new String[] {"사과", "바나나"};
+let fruits = ["사과", "바나나"];
+for(let i = 0; i < fruits.length; i++){
+	console.log(fruits[i]);
+}
+
+fruits = new Array("사과", "바나나");
+for(let i = 0; i < fruits.length; i++){
+	console.log(fruits[i]);
+}
+
+fruits["a"] = "파인애플";	//인덱스 번호를 문자로 사용하는법 
+console.log(fruits["a"]);
+console.log(fruits.length);	/*문자인덱스는 개수에 포함되지않는다*/
+fruits[100] = 3.141592;
+console.log(fruits[100]);	//다른 자료형이 들어가도 된다
+//인덱스 번호는 원하는 번호를 사용해도 된다.
+//자바의 배열처럼 크기가 고정되지 않는다
+console.log(fruits.length); //101개로변경

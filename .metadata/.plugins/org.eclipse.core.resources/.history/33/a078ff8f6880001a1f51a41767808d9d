@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>박스모델 예제</title>
+	<style>
+	*{
+		margin : 0;
+		padding : 0;
+		text-decoration : none;
+		list-style : none;
+	}
+	
+	div{
+		display : block;
+		width: 200px;
+		height: 200px;
+		font-size : 30px;
+		text-align: left;
+		line-height: 200px;
+	}
+	
+	#box1{
+	/*
+	padding, margin
+	1개 값을 입력하면 4개 방위 모두 적용
+	2개 값을 입력하면 첫번째값은 위아래 두번째 값은 오른쪽왼쪽
+	*/
+		padding : 30px 50px; 
+		background : orange;
+		}
+		
+	#box2, #box3{
+		display : none;
+	}
+	</style>
+</head>
+<body>
+	<div id = "box1">box1</div>
+	<div id = "box2">box2</div>
+	<div id = "box3">box3</div>
+</body>
+</html>

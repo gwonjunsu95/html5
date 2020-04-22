@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>문제1</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			text-decoration: none;
+			font-style: none;
+		}
+		
+		#box1{
+			width:235px;
+			height:200px;
+			border: 3px;
+			border-color: red;
+			padding: 6;
+			margin: 12;
+		}
+		
+		#box3{
+			width:235px;
+			height:200px;
+			border: 3px;
+			border-color: red;
+			padding: 6;
+			margin: 12;
+		}
+		
+		#box3{
+			width:235px;
+			height:200px;
+			border: 3px;
+			border-color: red;
+			padding: 6;
+			margin: 12;
+		}
+		
+	</style>
+</head>
+<body>
+	<div id = "box1">box1</div>
+	<div id = "box2">box2</div>
+	<div id = "box3">box3</div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<script>
+		var today = new Date();
+		document.write(today.toDateString() + "<br/>");
+		document.write(today.toISOString() + "<br/>");
+		document.write(today.)
+		document.write(today.)
+		document.write(today.)
+		document.write(today.)
+		document.write(today.)
+		document.write(today.)
+		document.write(today.)
+		document.write(today.)
+		
+	</script>
+</body>
+</html>

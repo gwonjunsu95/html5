@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+	<style>
+		*{
+			text-decoration: none;
+			list-style: none;
+		}
+	</style>
+	
+</head>
+<body>
+	<div>
+		<ul>
+			<li class = "menu">
+				<h3>한식</h3>
+				<ul>
+					<li>김치찌개</li>
+					<li>된장찌개</li>
+					<li>비빔밥</li>
+				</ul>
+			</li>
+			<li class = "menu">
+				<h3>양식</h3>
+				<ul>
+					<li>파스타</li>
+					<li>피자</li>
+					<li>스테이크</li>
+				</ul>
+			</li>
+			<li class = "menu">
+				<h3>중식</h3>
+				<ul>
+					<li>짜장면</li>
+					<li>짬뽕</li>
+					<li>볶음밥</li>
+				</ul>
+			</li>
+			<li class = "menu">
+				<h3>일식</h3>
+				<ul>
+					<li>초밥</li>
+					<li>라멘</li>
+					<li>돈까스</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+div{	/*태그선택자: 태그전체를 선택*/
+	background : skyblue;
+}
+
+
+/*아이디선택자: 아이디는 #으로 구분*/
+#box1{
+	background : orange;
+}
+
+/* 쉼표(,)를 사용하여 다중선택 가능*/
+#box2, #box3{
+	background : yellow;
+}

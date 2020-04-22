@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+div{	/*태그선택자: 태그전체를 선택*/
+	background : skyblue;
+}
+
+
+/*아이디선택자: 아이디는 #으로 구분
+	아이디는 1개의 태그에만 적용가능*/
+#box1{
+	background : orange;
+}
+
+/* 쉼표(,)를 사용하여 다중선택 가능*/
+#box2, #box3{
+	background : yellow;
+}
+
+/*클래스 선택자: 클래스는 .으로 구분
+	클래스는 여러개의 태그에 적용가능
+*/
+.boxes {
+	color : red;
+	background : black;
+}
+
+/*	선택자의 우선순위
+	태그:1점
+	클래스:10점
+	아이디: 1000점
+	
+	합산점수가 높은쪽이 우선순위
+	만약 같은점수일 경우에는 
+	하단에 기술한것이 적용됩니다.
+*/
+
+#box1 {
+	background : lightgray;
+}
+
+.bigfont{
+	font-size : 100px;
+}
+
+
+
+
+
+

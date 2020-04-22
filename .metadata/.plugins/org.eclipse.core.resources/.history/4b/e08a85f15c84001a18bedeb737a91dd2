@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<button>버튼1</button>
+	<button>버튼2</button>
+	<script>
+		function wConsole() {
+			console.log("일반함수");
+		}
+		let btn = document.querySelectorall("botton");
+		btn[0].addEventListener("click", wConsole);
+	
+	</script>
+</body>
+</html>

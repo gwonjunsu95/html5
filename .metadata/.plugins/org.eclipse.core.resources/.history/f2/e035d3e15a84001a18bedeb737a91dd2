@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<button onclick = "function(){alert('무명함수');}">버튼</button>
+	<script>
+	
+	</script>
+</body>
+</html>

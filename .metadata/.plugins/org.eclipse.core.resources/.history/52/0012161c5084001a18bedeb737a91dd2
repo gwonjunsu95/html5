@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			text-decoration: none;
+			list-style: none;
+		}
+		
+		p {
+			position: relative;
+			left: 50px;
+			top: 50px;
+			background: yellow;
+			color: #333;
+			border: 2px solid blue;
+			width: 300px;
+			height: 50px;
+			line-height: 50px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<p><span id = "xValue"></span> + <span id = "yValue"></span> = <span id = "calc"></span></p>
+	</div>
+	<script>
+		//prompt를 사용하면 문자열이 입력된다.
+		let x = prompt("x의 값을 입력해 주세요.", "정수만 입력 가능합니다.");
+		let y = prompt("y의 값을 입력해 주세요.", "실수는 입력하지 마세요.");
+		x = parseInt(x);	//정수로만 변환
+		y = Number(y);		//텍스트를 숫자로 변환
+		let result = x + y;
+		
+		console.log(result);
+		
+	</script>
+</body>
+</html>
